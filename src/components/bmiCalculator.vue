@@ -8,7 +8,7 @@
                 </div>
                 <div class="form-group text-left text-muted">
                     <label for="exampleInputEmail1">Enter Height </label>
-                    <input type="text" class="form-control" v-model="weight" aria-describedby="emailHelp" placeholder="Enter Weight in cm">
+                    <input type="text" class="form-control" v-model="weight" aria-describedby="emailHelp" placeholder="Enter Weight in kg">
                 </div>
                 <div class="form-group text-center">
                     <button type="submit" class="btn btn-block btn-success" @click="Calculate();" >Calculate BMI</button>
