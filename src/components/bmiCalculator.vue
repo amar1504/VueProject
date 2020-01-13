@@ -3,11 +3,11 @@
         <div class="card-body">
             <h5 class="card-title" >BMI Calculator</h5><hr/>
                 <div class="form-group text-left text-muted">
-                    <label for="exampleInputEmail1">Enter Weight</label>
+                    <label for="exampleInputEmail1">Enter Height </label>
                     <input type="text" class="form-control" v-model="height" aria-describedby="emailHelp" placeholder="Enter Height in cm">
                 </div>
                 <div class="form-group text-left text-muted">
-                    <label for="exampleInputEmail1">Enter Height </label>
+                    <label for="exampleInputEmail1">Enter Weight </label>
                     <input type="text" class="form-control" v-model="weight" aria-describedby="emailHelp" placeholder="Enter Weight in kg">
                 </div>
                 <div class="form-group text-center">
