@@ -2,17 +2,28 @@
   <div id="app" style=" background-image: linear-gradient(#8e44ad,#007991);" class="p-4">
     
     <bmiCalculator/>
+    <!-- mixin example 
+    <product/>
+    <sitemap/> -->
   </div>
 </template>
 
 <script>
-import bmiCalculator from './components/bmiCalculator.vue'
+ import bmiCalculator from './components/bmiCalculator.vue'
+
+/* mixin example
+import product from './components/productMixin.vue'
+import sitemap from './components/sitemapMixin.vue' */
 
 export default {
   name: 'app',
   components: {
-    bmiCalculator
-  }
+    bmiCalculator,
+    /* mixin example
+    product,
+    sitemap */
+  },
+ 
 }
 </script>
 

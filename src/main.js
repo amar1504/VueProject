@@ -10,7 +10,18 @@ Vue.use(VueSimpleAlert);
 Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
-
+/*
+Vue.mixin({
+  mounted(){
+    this.loadglobalmixin();
+  },
+  methods:{
+    loadglobalmixin(){
+      var msg="Gobal Mixin"
+      alert(msg);
+    }
+  }
+}); */
 
 new Vue({
   render: h => h(App),
